@@ -2,7 +2,7 @@ const properties = [
   {id:1,deal:"eladó",type:"Lakás",city:"Budapest",price:100000,area:118,rooms:3,title:"Fleujitott lakas",image:"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"},
   {id:2,deal:"eladó",type:"Lakás",city:"Budapest, XVIII. kerület",price:52900000,area:63,rooms:2,title:"Felújított, napfényes lakás",image:"https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80"},
   {id:3,deal:"kiadó",type:"Lakás",city:"Gyál",price:220000,area:54,rooms:2,title:"Modern lakás jó elhelyezkedéssel",image:"https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80"}
-  {id:3,deal:"sdfdsf",type:"sdfsdfsd",city:"sdfdsfdsf",price:220000,area:54,rooms:2,title:"Faszsag",image:"https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80"}
+  {id:4,deal:"sdfdsf",type:"sdfsdfsd",city:"sdfdsfdsf",price:220000,area:54,rooms:2,title:"Faszsag",image:"}
 ];
 const formatPrice = n => n.toLocaleString("hu-HU") + (properties.find(p=>p.price===n)?.deal==="kiadó" ? " Ft/hó" : " Ft");
 const grid = document.getElementById("listingGrid");
