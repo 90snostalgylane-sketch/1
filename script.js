@@ -2,7 +2,7 @@
 const properties = [
   {
    
-{
+
   id: 1,
   deal: "eladó",
   type: "Lakás",
