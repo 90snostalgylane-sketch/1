@@ -52,7 +52,7 @@ const properties = [
     area: 45,
     rooms: 2,
     title: "Családi ház Gyálon",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+    image: "https://www.lakaskultura.hu/ingatlanpiac/nagymeretu-lakasok-lehetosegei/"
   },
 ];
 
