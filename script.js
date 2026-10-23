@@ -44,7 +44,7 @@ const properties = [
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
   },
   {
-    id: 5,
+    id: 6,
     deal: "eladó",
     type: "Ház",
     city: "Gyál",
@@ -53,6 +53,50 @@ const properties = [
     rooms: 2,
     title: "Családi ház Gyálon",
     image: "https://www.lakaskultura.hu/wp-content/uploads/2025/07/2513871DTVlakas-scaled.jpg"
+  },
+   {
+    id: 7,
+    deal: "eladó",
+    type: "Ház",
+    city: "Gyál",
+    price: 10000,
+    area: 45,
+    rooms: 2,
+    title: "Családi ház Gyálon",
+    image: "https://www.lakaskultura.hu/wp-content/uploads/2025/07/2513871DTVlakas-scaled.jpg"
+  },
+   {
+    id: 8,
+    deal: "eladó",
+    type: "Ház",
+    city: "Gyál",
+    price: 10000,
+    area: 45,
+    rooms: 2,
+    title: "Családi ház Gyálon",
+    image: "https://www.lakaskultura.hu/wp-content/uploads/2025/07/2513871DTVlakas-scaled.jpg"
+  },
+   {
+    id: 9,
+    deal: "eladó",
+    type: "Ház",
+    city: "Gyál",
+    price: 10000,
+    area: 45,
+    rooms: 2,
+    title: "Családi ház Gyálon",
+    image: "https://www.lakaskultura.hu/wp-content/uploads/2025/07/2513871DTVlakas-scaled.jpg"
+  },
+  {
+    id: 10,
+    deal: "Kiadó",
+    type: "Lakás",
+    city: "Budapest 13. Kerólet",
+    price: 10000,
+    area: 90,
+    rooms: 2,
+    title: "Lkaás Budapest Sziváben",
+    image: "https://www.lakaskultura.hu/wp-content/uploads/2020/09/132986-highres.jpg"
   },
 ];
 
