@@ -44,7 +44,18 @@ const properties =
     rooms: 4,
     title: "Családi ház Vecsésen",
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
-  }
+  },
+  {
+    id: 5,
+    deal: "eladó",
+    type: " ház",
+    city: "Gyél",
+    price: 10000,
+    area: 45,
+    rooms: 12,
+    title: "Családi ház GYálon",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+  },
 ];
   
 ];
