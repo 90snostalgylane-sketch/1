@@ -28,12 +28,7 @@ Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel l
       "Határ úti metró kb. 10 percre"
     ],
     images: [
-      "https://i.postimg.cc/N5FdSknL/1-kep.jpg",
-  "https://i.postimg.cc/tYJBwNcx/2kep.jpg",
-  "https://i.postimg.cc/hfv261YV/3kep.jpg",
-  "https://i.postimg.cc/w7MwZQr9/4kep.jpg",
-  "https://i.postimg.cc/PN26SRSJ/5kep.jpg",
-  "https://i.postimg.cc/w7MwZQrT/haz.jpg",
+  
   "https://i.postimg.cc/kDfjTpfs/IMG-20260925-084730.jpg",
   "https://i.postimg.cc/RqRYjFVT/IMG-20260925-084835-(2).jpg",
   "https://i.postimg.cc/ZBLft7ZK/IMG-20260925-084842.jpg",
