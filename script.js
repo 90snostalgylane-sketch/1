@@ -123,6 +123,43 @@ Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel l
       "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=80"
     ]
   }
+  {
+    id: 6,
+    deal: "eladó",
+    type: "Lakás",
+    city: "Budapest",
+    price: 45000000,
+    area: 45,
+    rooms: 2,
+    title: "Eladó 45 m²-es felújított lakás saját kerttel és kocsibeállóval",
+    description: `Eladó egy 45 m²-es, teljesen felújított lakás saját, kizárólagos kertrésszel és privát kocsibeállóval, ügyvédi megosztásos épületben.
+
+Az épület első lakása közvetlen utcai bejárattal rendelkezik, így a lakás és a kert privát módon használható. Minden közmű külön mérőórával rendelkezik, nincs almérős rendszer.
+
+A lakás teljes körű felújításon esett át: új nyílászárók, villamos-, víz- és csatornahálózat, új hideg- és melegburkolatok, szaniterek és konyhabútor készültek.
+
+A lakóközösség összetartó és barátságos. A környék infrastruktúrája kiváló, a Határ úti metró körülbelül 10 perc alatt elérhető.
+
+Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel lehetősége az aktuális feltételek és az ingatlan jogosultságának függvényében ellenőrizendő.`,
+    features: [
+      "45 m² alapterület",
+      "2 szoba – ellenőrizendő",
+      "Teljes körű felújítás",
+      "Saját, kizárólagos kertrész",
+      "Privát kocsibeálló",
+      "Külön közműmérőórák",
+      "Közvetlen utcai bejárat",
+      "Határ úti metró kb. 10 percre"
+    ],
+    images: [
+      "https://i.postimg.cc/kDfjTpfs/IMG-20260925-084730.jpg",
+      "https://i.postimg.cc/RqRYjFVT/IMG-20260925-084835-(2).jpg",
+      "https://i.postimg.cc/ZBLft7ZK/IMG-20260925-084842.jpg",
+      "https://i.postimg.cc/SYNgy6N5/IMG-20260925-084902.jpg",
+      "https://i.postimg.cc/8fPZ1RzN/IMG-20260925-084934.jpg"
+    ],
+    video: "https://www.youtube.com/embed/CC3FEI8irnY"
+  },
 ];
 
 const grid = document.getElementById("listingGrid");
