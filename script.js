@@ -52,7 +52,7 @@ const properties = [
     area: 45,
     rooms: 2,
     title: "Családi ház Gyálon",
-    image: "https://www.lakaskultura.hu/ingatlanpiac/nagymeretu-lakasok-lehetosegei/"
+    image: "https://www.lakaskultura.hu/wp-content/uploads/2025/07/2513871DTVlakas-scaled.jpg"
   },
 ];
 
