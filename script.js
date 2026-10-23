@@ -27,7 +27,7 @@ Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel l
       "Közvetlen utcai bejárat",
       "Határ úti metró kb. 10 percre"
     ],
-       images: [
+    images: [
       "https://i.postimg.cc/kDfjTpfs/IMG-20260925-084730.jpg",
       "https://i.postimg.cc/RqRYjFVT/IMG-20260925-084835-(2).jpg",
       "https://i.postimg.cc/ZBLft7ZK/IMG-20260925-084842.jpg",
@@ -237,6 +237,22 @@ function openDetails(property) {
         `).join("")}
       </div>
     </div>
+
+    ${property.video ? `
+      <div style="padding: 20px;">
+        <h3 class="detail-heading">Ingatlanvideó</h3>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
+          <iframe
+            src="${property.video}"
+            title="${property.title} – ingatlanvideó"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    ` : ""}
 
     <div class="detail-body">
       <p class="section-kicker">NORBI AZ INGATLANOS · INGATLANAJÁNLAT</p>
