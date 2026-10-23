@@ -29,7 +29,10 @@ Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel l
     ],
     images: [
       "kepek/1.kep.jpg",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=80",
+      "kepek/2kep.jpg",
+      "kepek/3kep.jpg",
+      "kepek/4kep.jpg",
+      "kepek/5kep.jpg",
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=80"
     ]
   },
