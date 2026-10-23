@@ -1,3 +1,4 @@
+
 const properties = [
   {
     id: 1,
@@ -56,7 +57,8 @@ Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel l
       "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=80",
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=80",
       "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=80"
-    ]
+    ],
+    video: ""
   },
   {
     id: 3,
@@ -78,7 +80,8 @@ Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel l
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=80",
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=80",
       "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=80"
-    ]
+    ],
+    video: ""
   },
   {
     id: 4,
@@ -100,7 +103,8 @@ Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel l
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80",
       "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=80",
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=80"
-    ]
+    ],
+    video: ""
   },
   {
     id: 5,
@@ -121,46 +125,30 @@ Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel l
     images: [
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80",
       "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=80"
-    ]
+    ],
+    video: ""
   }
-  {
-    id: 6,
+];
+
+// További ingatlanhelyek automatikus létrehozása: ID 6–50
+for (let id = 6; id <= 50; id++) {
+  properties.push({
+    id,
     deal: "eladó",
     type: "Lakás",
-    city: "Budapest",
-    price: 45000000,
-    area: 45,
-    rooms: 2,
-    title: "Eladó 45 m²-es felújított lakás saját kerttel és kocsibeállóval",
-    description: `Eladó egy 45 m²-es, teljesen felújított lakás saját, kizárólagos kertrésszel és privát kocsibeállóval, ügyvédi megosztásos épületben.
-
-Az épület első lakása közvetlen utcai bejárattal rendelkezik, így a lakás és a kert privát módon használható. Minden közmű külön mérőórával rendelkezik, nincs almérős rendszer.
-
-A lakás teljes körű felújításon esett át: új nyílászárók, villamos-, víz- és csatornahálózat, új hideg- és melegburkolatok, szaniterek és konyhabútor készültek.
-
-A lakóközösség összetartó és barátságos. A környék infrastruktúrája kiváló, a Határ úti metró körülbelül 10 perc alatt elérhető.
-
-Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel lehetősége az aktuális feltételek és az ingatlan jogosultságának függvényében ellenőrizendő.`,
-    features: [
-      "45 m² alapterület",
-      "2 szoba – ellenőrizendő",
-      "Teljes körű felújítás",
-      "Saját, kizárólagos kertrész",
-      "Privát kocsibeálló",
-      "Külön közműmérőórák",
-      "Közvetlen utcai bejárat",
-      "Határ úti metró kb. 10 percre"
-    ],
+    city: "",
+    price: 0,
+    area: 0,
+    rooms: 0,
+    title: `Új ingatlan #${id}`,
+    description: "",
+    features: [],
     images: [
-      "https://i.postimg.cc/kDfjTpfs/IMG-20260925-084730.jpg",
-      "https://i.postimg.cc/RqRYjFVT/IMG-20260925-084835-(2).jpg",
-      "https://i.postimg.cc/ZBLft7ZK/IMG-20260925-084842.jpg",
-      "https://i.postimg.cc/SYNgy6N5/IMG-20260925-084902.jpg",
-      "https://i.postimg.cc/8fPZ1RzN/IMG-20260925-084934.jpg"
+      `https://placehold.co/1200x800/171717/D4AF37?text=Ingatlan+${id}`
     ],
-    video: "https://www.youtube.com/embed/CC3FEI8irnY"
-  },
-];
+    video: ""
+  });
+}
 
 const grid = document.getElementById("listingGrid");
 const emptyState = document.getElementById("emptyState");
