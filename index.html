@@ -1,22 +1,45 @@
+
 <!doctype html>
 <html lang="hu">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#171511">
-  <meta name="description" content="NORBI AZ INGATLANOS – Dél-Pest szakértője. Eladó és kiadó ingatlanok, személyes ingatlanközvetítés 20 év szakmai tapasztalattal.">
-  <title>NORBI AZ INGATLANOS | Dél-Pest szakértője</title>
+  <meta name="description" content="Ingatlanközvetítés Budapesten és Pest vármegyében. Eladó és kiadó lakások, családi házak és telkek. Vegye fel a kapcsolatot a NORBI AZ INGATLANOS szolgáltatással!">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="NORBI AZ INGATLANOS">
+
+  <link rel="canonical" href="https://90snostalgylane-sketch.github.io/1/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="hu_HU">
+  <meta property="og:site_name" content="NORBI AZ INGATLANOS">
+  <meta property="og:title" content="NORBI AZ INGATLANOS | Budapest és Pest vármegye">
+  <meta property="og:description" content="Személyes ingatlanközvetítés Budapesten és Pest vármegyében. Eladó és kiadó ingatlanok, odafigyelés és megbízható ügyintézés.">
+  <meta property="og:url" content="https://90snostalgylane-sketch.github.io/1/">
+  <meta name="twitter:card" content="summary">
+
+  <title>NORBI AZ INGATLANOS | Ingatlanközvetítés Budapesten és Pest vármegyében</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header class="site-header">
     <a class="brand" href="#kezdolap" aria-label="Norbi az ingatlanos – főoldal">
       <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 64 56"><path d="M5 27 30 5l25 22M15 27V17l15-12 15 12v10M5 31h54M18 31a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm8 8h30m-8 0v6m-7-6v4"/></svg>
+        <svg viewBox="0 0 64 56">
+          <path d="M5 27 30 5l25 22M15 27V17l15-12 15 12v10M5 31h54M18 31a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm8 8h30m-8 0v6m-7-6v4"/>
+        </svg>
       </span>
-      <span><strong>NORBI AZ INGATLANOS</strong><small>DÉL-PEST SZAKÉRTŐJE</small></span>
+      <span>
+        <strong>NORBI AZ INGATLANOS</strong>
+        <small>BUDAPEST ÉS PEST VÁRMEGYE</small>
+      </span>
     </a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Menü megnyitása" aria-expanded="false">☰</button>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Menü megnyitása" aria-expanded="false" aria-controls="mainNav">☰</button>
+
     <nav id="mainNav" aria-label="Fő navigáció">
       <a href="#ingatlanok">Ingatlanok</a>
       <a href="#rolam">Rólam</a>
@@ -27,72 +50,186 @@
   <main>
     <section class="hero" id="kezdolap">
       <div class="hero-overlay"></div>
+
       <div class="hero-content">
-        <p class="eyebrow"><span></span> SZEMÉLYES FIGYELEM · MEGBÍZHATÓSÁG</p>
+        <p class="eyebrow">
+          <span></span> SZEMÉLYES FIGYELEM · MEGBÍZHATÓSÁG
+        </p>
+
         <h1>Megtaláljuk<br><em>az otthonát.</em></h1>
-        <p class="hero-sub">Helyismeret, odafigyelés és 20 év szakmai tapasztalat Dél-Pesten és környékén.</p>
-        <a class="button button-gold" href="#ingatlanok">Ingatlanok megtekintése <span>↗</span></a>
-        <div class="hero-proof"><span class="proof-number">20</span><span>év szakmai<br>tapasztalat</span><i></i><span>Az első beszélgetéstől<br>a kulcsátadásig</span></div>
+
+        <p class="hero-sub">
+          Személyes ingatlanközvetítés, helyismeret és odafigyelés Budapesten és Pest vármegyében.
+        </p>
+
+        <a class="button button-gold" href="#ingatlanok">
+          Ingatlanok megtekintése <span>↗</span>
+        </a>
+
+        <div class="hero-proof">
+          <span class="proof-number">20</span>
+          <span>év szakmai<br>tapasztalat</span>
+          <i></i>
+          <span>Az első beszélgetéstől<br>a kulcsátadásig</span>
+        </div>
       </div>
+
       <div class="hero-caption">INGATLANOK · EMBEREK · ÚJ KEZDETEK</div>
     </section>
 
     <section class="search-panel" aria-label="Ingatlankereső">
-      <div class="search-heading"><span class="section-kicker">TALÁLJA MEG</span><h2>Az Ön következő otthonát</h2></div>
+      <div class="search-heading">
+        <span class="section-kicker">TALÁLJA MEG</span>
+        <h2>Az Ön következő otthonát</h2>
+      </div>
+
       <form id="searchForm" class="search-form">
-        <label>Ügylet típusa<select id="filterDeal"><option value="all">Mindegy</option><option value="eladó">Eladó</option><option value="kiadó">Kiadó</option></select></label>
-        <label>Ingatlan típusa<select id="filterType"><option value="all">Mindegy</option><option value="Családi ház">Családi ház</option><option value="Lakás">Lakás</option><option value="Telek">Telek</option></select></label>
-        <label>Település<input id="filterCity" type="search" placeholder="Pl. Vecsés"></label>
-        <label>Max. ár (Ft)<input id="filterMax" type="number" min="0" step="100000" placeholder="Pl. 80000000"></label>
-        <button class="button button-dark" type="submit">Keresés <span>⌕</span></button>
+        <label for="filterDeal">
+          Ügylet típusa
+          <select id="filterDeal" name="deal">
+            <option value="all">Mindegy</option>
+            <option value="eladó">Eladó</option>
+            <option value="kiadó">Kiadó</option>
+          </select>
+        </label>
+
+        <label for="filterType">
+          Ingatlan típusa
+          <select id="filterType" name="type">
+            <option value="all">Mindegy</option>
+            <option value="Családi ház">Családi ház</option>
+            <option value="Lakás">Lakás</option>
+            <option value="Telek">Telek</option>
+          </select>
+        </label>
+
+        <label for="filterCity">
+          Település
+          <input id="filterCity" name="city" type="search" placeholder="Pl. Vecsés vagy Budapest">
+        </label>
+
+        <label for="filterMax">
+          Max. ár (Ft)
+          <input id="filterMax" name="maxPrice" type="number" min="0" step="100000" placeholder="Pl. 80000000">
+        </label>
+
+        <button class="button button-dark" type="submit">
+          Keresés <span>⌕</span>
+        </button>
       </form>
     </section>
 
     <section class="listings section-wrap" id="ingatlanok">
-      <div class="section-top"><div><p class="section-kicker">VÁLOGATOTT AJÁNLATOK</p><h2>Ingatlanok</h2></div><p class="muted">Találja meg az Önnek megfelelő helyet.</p></div>
-      <div class="demo-note" id="demoNote"><strong>Bemutató tartalom:</strong> a kártyák mintaadatok, nem valódi eladó ingatlanok. Élesítés előtt cseréld őket valós hirdetésekre.</div>
+      <div class="section-top">
+        <div>
+          <p class="section-kicker">VÁLOGATOTT AJÁNLATOK</p>
+          <h2>Eladó és kiadó ingatlanok</h2>
+        </div>
+        <p class="muted">Találja meg az Önnek megfelelő helyet Budapesten vagy Pest vármegyében.</p>
+      </div>
+
+      <div class="demo-note" id="demoNote">
+        <strong>Bemutató tartalom:</strong>
+        a kártyák mintaadatok lehetnek, nem feltétlenül valódi eladó vagy kiadó ingatlanok.
+      </div>
+
       <div class="listing-grid" id="listingGrid" aria-live="polite"></div>
-      <p class="empty-state" id="emptyState" hidden>Nincs a keresésnek megfelelő találat. Próbálj más szűrőket!</p>
+
+      <p class="empty-state" id="emptyState" hidden>
+        Nincs a keresésnek megfelelő találat. Próbáljon más szűrőket!
+      </p>
     </section>
 
     <section class="about" id="rolam">
       <div class="about-art">
         <div class="about-frame">
-          <svg viewBox="0 0 160 140" aria-hidden="true"><path d="M16 64 80 10l64 54M36 64V40l44-30 44 30v24M20 70h120M48 70a19 19 0 1 0 0 38 19 19 0 0 0 0-38Zm19 19h73m-25 0v15m-17-15v10"/></svg>
+          <svg viewBox="0 0 160 140" aria-hidden="true">
+            <path d="M16 64 80 10l64 54M36 64V40l44-30 44 30v24M20 70h120M48 70a19 19 0 1 0 0 38 19 19 0 0 0 0-38Zm19 19h73m-25 0v15m-17-15v10"/>
+          </svg>
           <span>NORBI AZ INGATLANOS</span>
-          <small>DÉL-PEST SZAKÉRTŐJE</small>
+          <small>BUDAPEST ÉS PEST VÁRMEGYE</small>
         </div>
       </div>
+
       <div class="about-copy">
         <p class="section-kicker">SZEMÉLYESEN, ÖNÉRT</p>
+
         <h2>Az ingatlan több,<br>mint négy fal.</h2>
-        <p>Az otthon megtalálása vagy egy ingatlan értékesítése fontos döntés. A célom, hogy a folyamat átlátható, emberközeli és megbízható legyen – az első egyeztetéstől a megállapodásig.</p>
-        <div class="experience"><strong>20</strong><span>év szakmai tapasztalat<br><small>Dél-Pest és környéke</small></span></div>
-        <a class="text-link" href="#kapcsolat">Beszéljünk az elképzeléseiről <span>→</span></a>
+
+        <p>
+          Az otthon megtalálása vagy egy ingatlan értékesítése fontos döntés.
+          A célom, hogy a folyamat átlátható, emberközeli és megbízható legyen
+          – az első egyeztetéstől a megállapodásig.
+        </p>
+
+        <div class="experience">
+          <strong>20</strong>
+          <span>
+            év szakmai tapasztalat<br>
+            <small>Budapest és Pest vármegye</small>
+          </span>
+        </div>
+
+        <a class="text-link" href="#kapcsolat">
+          Beszéljünk az elképzeléseiről <span>→</span>
+        </a>
       </div>
     </section>
 
     <section class="contact section-wrap" id="kapcsolat">
       <div class="contact-intro">
         <p class="section-kicker">KEZDJÜK EGY BESZÉLGETÉSSEL</p>
+
         <h2>Van egy terve?<br><em>Segítek megvalósítani.</em></h2>
-        <p>Keressen bizalommal, és egyeztessünk a következő lépésről.</p>
+
+        <p>
+          Keressen bizalommal, és egyeztessünk a következő lépésről!
+          Ingatlanközvetítés Budapesten és Pest vármegyében.
+        </p>
       </div>
+
       <div class="contact-card">
-        <div class="contact-row"><span class="contact-icon">☎</span><div><small>TELEFON</small><a href="tel:+36703646078">+36 70 364 6078</a></div></div>
-        <div class="contact-row"><span class="contact-icon">✉</span><div><small>E-MAIL</small><a href="mailto:norbiazingatlanos@gmail.com">norbiazingatlanos@gmail.com</a></div></div>
-        <div class="contact-row"><span class="contact-icon">⌖</span><div><small>FŐ TERÜLET</small><span>Dél-Pest és környéke</span></div></div>
-        <a class="button button-gold full-button" href="mailto:norbiazingatlanos@gmail.com?subject=Ingatlan%20%C3%A9rdekl%C5%91d%C3%A9s">E-mail küldése <span>↗</span></a>
-        <p class="form-hint">Az e-mail gomb a levelezőprogramot nyitja meg. Automatikus űrlapküldés nincs beállítva.</p>
+        <div class="contact-row">
+          <span class="contact-icon" aria-hidden="true">☎</span>
+          <div>
+            <small>TELEFON</small>
+            <a href="tel:+36703646078">+36 70 364 6078</a>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <span class="contact-icon" aria-hidden="true">✉</span>
+          <div>
+            <small>E-MAIL</small>
+            <a href="mailto:norbiazingatlanos@gmail.com">norbiazingatlanos@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <span class="contact-icon" aria-hidden="true">⌖</span>
+          <div>
+            <small>SZOLGÁLTATÁSI TERÜLET</small>
+            <span>Budapest és Pest vármegye</span>
+          </div>
+        </div>
+
+        <a class="button button-gold full-button" href="mailto:norbiazingatlanos@gmail.com?subject=Ingatlan%20%C3%A9rdekl%C5%91d%C3%A9s">
+          E-mail küldése <span>↗</span>
+        </a>
+
+        <p class="form-hint">
+          Az e-mail gomb a levelezőprogramot nyitja meg. Automatikus űrlapküldés nincs beállítva.
+        </p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <a class="footer-brand" href="#kezdolap">NORBI <span>AZ INGATLANOS</span></a>
-    <p>Dél-Pest szakértője · 20 év szakmai tapasztalat</p>
+    <p>Ingatlanközvetítés Budapesten és Pest vármegyében</p>
     <p class="copyright">© <span id="year"></span> NORBI AZ INGATLANOS</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
