@@ -27,16 +27,14 @@ Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel l
       "Közvetlen utcai bejárat",
       "Határ úti metró kb. 10 percre"
     ],
-    images: [
-  
-  "https://i.postimg.cc/kDfjTpfs/IMG-20260925-084730.jpg",
-  "https://i.postimg.cc/RqRYjFVT/IMG-20260925-084835-(2).jpg",
-  "https://i.postimg.cc/ZBLft7ZK/IMG-20260925-084842.jpg",
-  "https://i.postimg.cc/SYNgy6N5/IMG-20260925-084902.jpg",
-  "https://i.postimg.cc/8fPZ1RzN/IMG-20260925-084934.jpg"
-      "https://youtu.be/CC3FEI8irnY?si=i5CtcFiPOQGWsNBY"
-     
-    ]
+       images: [
+      "https://i.postimg.cc/kDfjTpfs/IMG-20260925-084730.jpg",
+      "https://i.postimg.cc/RqRYjFVT/IMG-20260925-084835-(2).jpg",
+      "https://i.postimg.cc/ZBLft7ZK/IMG-20260925-084842.jpg",
+      "https://i.postimg.cc/SYNgy6N5/IMG-20260925-084902.jpg",
+      "https://i.postimg.cc/8fPZ1RzN/IMG-20260925-084934.jpg"
+    ],
+    video: "https://www.youtube.com/embed/CC3FEI8irnY"
   },
   {
     id: 2,
