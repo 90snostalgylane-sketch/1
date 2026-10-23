@@ -53,7 +53,7 @@ const properties = [
     rooms: 2,
     title: "Családi ház Gyálon",
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
-  }
+  },
 ];
 
 const grid = document.getElementById("listingGrid");
