@@ -1,22 +1,42 @@
 
 const properties = [
   {
-    id: 1,
-    deal: "eladó",
-    type: "Lakás",
-    city: "Budapest",
-    price: 100000,
-    area: 118,
-    rooms: 3,
-    title: "Világos lakás Budapesten",
-    description: "Tágas, világos lakás kényelmes elrendezéssel. A nagy ablakoknak köszönhetően a helyiségek természetes fényt kapnak. Jó kiindulópont lehet azok számára, akik városi környezetben keresik következő otthonukat.",
-    features: ["118 m² alapterület", "3 szoba", "Világos belső terek", "Jól alakítható elrendezés"],
-    images: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=80",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=80"
-    ]
-  },
+   
+{
+  id: 1,
+  deal: "eladó",
+  type: "Lakás",
+  city: "Budapest",
+  price: 45000000,
+  area: 45,
+  rooms: 2,
+  title: "Eladó 45 m²-es felújított lakás saját kerttel és kocsibeállóval",
+  description: `Eladó egy 45 m²-es, teljesen felújított lakás saját, kizárólagos kertrésszel és privát kocsibeállóval, ügyvédi megosztásos épületben.
+
+Az épület első lakása közvetlen utcai bejárattal rendelkezik, így a lakás és a kert privát módon használható. Minden közmű külön mérőórával rendelkezik, nincs almérős rendszer.
+
+A lakás teljes körű felújításon esett át: új nyílászárók, villamos-, víz- és csatornahálózat, új hideg- és melegburkolatok, szaniterek és konyhabútor készültek.
+
+A lakóközösség összetartó és barátságos. A környék infrastruktúrája kiváló, a Határ úti metró körülbelül 10 perc alatt elérhető.
+
+Ideális első lakásnak, kisebb családnak vagy befektetésnek. A 3%-os hitel lehetősége az aktuális feltételek és az ingatlan jogosultságának függvényében ellenőrizendő.`,
+  features: [
+    "45 m² alapterület",
+    "2 szoba – ellenőrizendő",
+    "Teljes körű felújítás",
+    "Saját, kizárólagos kertrész",
+    "Privát kocsibeálló",
+    "Külön közműmérőórák",
+    "Közvetlen utcai bejárat",
+    "Határ úti metró kb. 10 percre"
+  ],
+  images: [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=80"
+  ]
+},
+
   {
     id: 2,
     deal: "eladó",
